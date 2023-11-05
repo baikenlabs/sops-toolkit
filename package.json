@@ -1,0 +1,29 @@
+{
+  "name": "sops-toolkit",
+  "version": "1.0.0",
+  "description": "Package to help encrypt/decrypt ENV files for BaikenLabs",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baikenlabs/sops-toolkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baikenlabs/sops-toolkit/issues"
+  },
+  "homepage": "https://github.com/baikenlabs/sops-toolkit#readme",
+  "bin": {
+    "baikenlabs-encrypt": "./bin/encrypt.js",
+    "baikenlabs-decrypt": "./bin/decrypt.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
