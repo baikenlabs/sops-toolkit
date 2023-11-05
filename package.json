@@ -1,11 +1,11 @@
 {
-
   "name": "@baikenlabs/sops-toolkit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package to help encrypt/decrypt ENV files for BaikenLabs",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "lib/**/*"
   ],
   "repository": {
     "type": "git",
@@ -28,4 +28,3 @@
     "dotenv": "^16.3.1"
   }
 }
-
