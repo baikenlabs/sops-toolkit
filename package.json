@@ -1,5 +1,5 @@
 {
-  "name": "sops-toolkit",
+  "name": "@baikenlabs/sops-toolkit",
   "version": "1.0.0",
   "description": "Package to help encrypt/decrypt ENV files for BaikenLabs",
   "main": "index.js",
